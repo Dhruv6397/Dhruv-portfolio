@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Satisfy&display=swap');
+.background-container{
+    box-sizing: border-box;
+    background: url('./../assets/Darkbg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.home-main-container{
+    position: relative;
+    user-select: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.greet h2{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 2em;
+    color: rgb(213, 48, 48);
+    padding: 1em;
+}
+.greet h2:hover{
+    padding: 0;
+    font-size: 4em;
+    transition: .7s ease-out;
+    /* transform: translateY(40px); */
+}
+
+.name{
+    color: rgb(58, 58, 58);
+    font-size: 15em;
+    border-radius:.2em ;
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    text-shadow: 5px 2px 5px rgba(140, 139, 139, 0.685);
+    font-family: "Satisfy", cursive;
+    font-weight: 600;
+    font-style: normal;
+    
+  
+}
+.char:hover{
+    text-shadow:5px 5px 5px rgba(255, 30, 0, 0.488);
+    color: rgb(241, 223, 192);
+    transition: 1s ease;
+}
+.icons-class{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    display: flex;
+    gap: 3em;
+    
+}
+.icons-class a{
+    color: black;
+    
+}
+.icons-class a:hover{
+    color: rgb(54, 102, 191);
+    .ic{
+        color: white;
+        font-size: .75em;
+        background-color: rgb(114, 114, 114);
+        padding: .2em;
+        border-radius: 2em;
+    }
+}
+.icon-git,.icon-linked,.icon-x,.icon-insta{
+    display: none;
+    position: absolute;
+}
+.git-i:hover{
+    .icon-git{
+        display: block;
+    }
+}
+.link-i:hover{
+    .icon-linked{
+        display: block;
+    }
+}
+.x-i:hover{
+    .icon-x{
+        display: block;
+    }
+}
+.ins-i:hover{
+    .icon-insta{
+        display: block;
+    }
+}
+/* 
+.d{
+    animation: animaD;
+    animation-duration:3s;
+    transition: .5s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes animaD{
+    from{
+        transform: translateX(-10em);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.r{
+    animation-name: animaR;
+    animation-duration: 3s;
+    transition: 1s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes animaR{
+    from{
+        transform: translateY(10em);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.h,.u{
+    animation-name: animaHU;
+    animation-duration: 3s;
+    transition: 1s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes animaHU{
+    from{
+        transform: translateY(-10em);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.v{
+    animation-name: animaV;
+    animation-duration: 3s;
+    transition: 1s ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes animaV{
+    from{
+        transform: translateX(10em);
+    }
+    to{
+        transform: translateX(0);
+    }
+}   */

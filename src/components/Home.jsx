@@ -11,7 +11,7 @@ export default function Home() {
         <div className='home-main-container'>
             <div className='greet'> 
                 <h2>Hi, I&apos;m</h2>
-                <div className='name'>
+                <div className='name'> 
                     <span className='char d'>D</span>
                     <span className='char h'>H</span>
                     <span className='char r'>R</span>

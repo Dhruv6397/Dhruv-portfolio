@@ -18,14 +18,12 @@
 
 .home-main-container{
     position: relative;
-    user-select: none;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     overflow: hidden;
-    
 }
 .greet{
     width: 100%;

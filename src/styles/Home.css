@@ -123,6 +123,9 @@
         left: 10%;
         right: 10%;
     }
+    .home-main-container{
+        height: 100%;
+    }
 }
 /* 
 .d{

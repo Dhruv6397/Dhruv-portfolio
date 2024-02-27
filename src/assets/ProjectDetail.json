@@ -1,0 +1,34 @@
+{
+    "HighLighted":[
+        {"id":1,
+        "name":"React Movie App",
+        "domain":"Website",
+        "imageUrl":"./../assets/demo.jpg",
+        "description":"This is movie app made in ReactJS.",
+        "gitLink":"https://github.com/Dhruv6397/final-react-movie-app"
+        },
+        {"id":2,
+        "name":"News For You",
+        "domain":"Website",
+        "imageUrl":"./../assets/demo.jpg",
+        "description":"This is movie app made in ReactJS.",
+        "gitLink":"https://github.com/Dhruv6397/News-for-you"
+        },
+        {"id":3,
+        "name":"Pokemons Kingdom",
+        "domain":"Website",
+        "imageUrl":"./../assets/demo.jpg",
+        "description":"This is Pokemons kingdom in ReactJS.",
+        "gitLink":"https://github.com/Dhruv6397/Pokemons"
+        }
+        
+    ],
+    "ListOfAll":[
+        {"id":1,"name":"Netflix Clone","domain":"","image-url":"./../assets/demo.jpg","description":""},
+        {"id":2,"name":"To Do List","domain":"","image-url":"./../assets/demo.jpg","description":""},
+        {"id":3,"name":"Weather Status Finder","domain":"","image-url":"./../assets/demo.jpg","description":""},
+        {"id":4,"name":"Quotes Generator app","domain":"","image-url":"./../assets/demo.jpg","description":""},
+        {"id":5,"name":"Dhruv Movie App","domain":"","image-url":"./../assets/demo.jpg","description":""},
+        {"id":6,"name":"First Website","domain":"","image-url":"./../assets/demo.jpg","description":""}
+    ]
+}

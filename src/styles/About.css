@@ -12,21 +12,24 @@
     background-size: cover;
     user-select: none;
     display: flex;
-    top: 10%;
+    
 }
 .whole-content{
     border: 1px solid rgb(0, 0, 0);
+    height: 100%;
     margin: 5em;
+    height: fit-content;
     border-radius: 2em;
-    background-color: rgba(0, 0, 0, 0.371);
+    background-color: rgba(0, 0, 0, 0.543);
     color: white;
     box-shadow: -3px -3px 5px black;
 }
-.head-content{
+.head-content{ 
     padding: .5em;
     font-size: 1.5em;
 }
 .para-container{
+    z-index: 2;
     padding: 2em;
 }
 .para-content{
@@ -34,4 +37,12 @@
     word-spacing: .3em;
     line-height: 1.5em;
     text-align: justify;
+}
+@media screen and (max-width:500px) {
+    .whole-content{
+        margin: 1em;
+    }
+    .about-main-container{
+        height: 100%;
+    }
 }

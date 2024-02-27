@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.projects-main-container{
+    height: 100vh;
+    width: 100vw;
+    background: url('./../assets/Darkbg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    background-position: fixed;
+    
+    z-index: -1;
+}
+.high-lighted-container{
+    height: 50%;
+    width: 100%;
+    margin-top: 5%;
+    z-index: 2;
+}
+.iterator-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+}
+.highlightedCard-container{
+    margin: 1em;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.772);
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgb(79, 79, 79);
+    border: 1px solid rgb(0, 0, 0);
+}
+.image-container{
+    height: 100%;
+    width: 100%;
+}
+.highlightedCard-container .image-container img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 2em;
+}
+.project-name{
+    position: absolute;
+    color: white;
+}
+.description-container{
+    color: white;
+    z-index: 3;
+    position: absolute;
+    display: none;
+}
+
+.description-container p{
+    font-size: 1.5em;
+    overflow-wrap: break-word;
+}
+.description-container h2{
+    overflow-wrap: break-word;
+    font-size: 2em;
+}
+.description-container a{
+    float: right;
+}
+.description-container a:hover{
+    color: blue;
+}
+.highlightedCard-container:hover{
+    .description-container{
+        display: block;
+    }
+    .project-name{
+        display: none;
+    }
+    .image-container{
+        filter: blur(5px);
+    }
+    
+}
+@media  screen and (max-width:1160px) {
+    .iterator-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .projects-main-container{
+        padding-top: 10%;
+    }
+}
+@media  screen and (max-width:600px){
+    .iterator-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .projects-main-container{
+        
+    }
+}

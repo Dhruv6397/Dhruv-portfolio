@@ -12,8 +12,9 @@
     background-size: cover;
     user-select: none;
     display: flex;
+    flex-direction: column;
     background-position: fixed;
-    
+    overflow-x: hidden;
     z-index: -1;
 }
 .high-lighted-container{
@@ -54,8 +55,10 @@
     border-radius: 2em;
 }
 .project-name{
+    
     position: absolute;
     color: white;
+    z-index: 3;
 }
 .description-container{
     color: white;
@@ -105,4 +108,37 @@
         grid-template-columns: 1fr ;
     }
     
+}
+
+
+.project-list-container{
+    /* it will not effect */
+    background-color:rgba(67, 58, 67, 0);
+    border-radius: 2em;
+    
+}
+.iterator-list-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   border-radius:2em;
+   /* this will not effect */
+   background-color:rgba(255, 0, 0, 0);
+}
+.list-object-container{
+   padding: 1em;
+
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border-radius:2em ;
+   background-color:rgba(106, 106, 106, 0.603);
+
+}
+.list-image{
+    width: 7em;
+    height: 5em;
+    border-radius: 1em;
 }

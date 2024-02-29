@@ -41,6 +41,37 @@ const HighLightedCard=({project})=>{
   )
 }
 
+
+const IterateListData =({listData})=>{
+  return(
+   
+    <>
+      <div className='iterator-list-container'>
+      {
+        listData.map(project=>(
+          <ListProject key={project.id} project={project} />
+        ))
+      }
+      </div>
+    </>
+  )
+}
+
+const ListProject =({project})=>{
+  const {id,name,domain,imageUrl,description}= project;
+  return(
+    <>
+    <div style={{display:"none"}}>{domain}{imageUrl}</div>
+    <li className='list-object-container'>
+      <h5>{id}</h5>
+      <h2>{name}</h2>
+      <p>{description}</p>
+      <img className="list-image"src={Image} alt="image" />
+    </li>
+    </>
+  )
+}
+
 export default function Projects() {
   const data =Data;
   return (
@@ -49,10 +80,13 @@ export default function Projects() {
           <div className='high-lighted-container'>
               <IterateHighlightedData dataHighlighted={data.HighLighted}/>
           </div>
+           
+        <div className='project-list-container'>
+            <IterateListData listData={data.ListOfAll}/>
+        </div>
       </div>
-      <div className='all-projects-list'>
 
-      </div>
+
     </>
   )
 }

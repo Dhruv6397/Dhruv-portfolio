@@ -24,7 +24,12 @@
         
     ],
     "ListOfAll":[
-        {"id":1,"name":"Netflix Clone","domain":"","image-url":"./../assets/demo.jpg","description":""},
+        {"id":1,
+        "name":"Netflix Clone",
+        "domain":"",
+        "image-url":"./../assets/demo.jpg",
+        "description":""
+        },
         {"id":2,"name":"To Do List","domain":"","image-url":"./../assets/demo.jpg","description":""},
         {"id":3,"name":"Weather Status Finder","domain":"","image-url":"./../assets/demo.jpg","description":""},
         {"id":4,"name":"Quotes Generator app","domain":"","image-url":"./../assets/demo.jpg","description":""},

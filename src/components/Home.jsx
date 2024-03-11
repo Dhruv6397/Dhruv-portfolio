@@ -3,18 +3,14 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import MenuIcon from '@mui/icons-material/Menu';
-import { useState } from 'react';
+
 
 export default function Home() {
-  const [menuClose,menuOpen] = useState(true);
   return (
     <>
         <div className="background-container">
         </div>
-        <div  className='mobile-menu'>
-            {menuOpen?<MenuIcon/>:menuClose}
-        </div>
+       
         <div className='home-main-container'>
             <div className='greet'> 
                 <h2>Hi, I&apos;m</h2>

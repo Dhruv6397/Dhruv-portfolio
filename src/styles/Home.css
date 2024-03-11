@@ -104,6 +104,7 @@
     }
     .background-container{
         height: 100%;
+        z-index: -1;
     }
 }
 @media screen and (min-width:760px) {
@@ -129,60 +130,5 @@
     }
 }
 
-/* 
-.d{
-    animation: animaD;
-    animation-duration:3s;
-    transition: .5s ease-in;
-    animation-fill-mode: forwards;
-}
-@keyframes animaD{
-    from{
-        transform: translateX(-10em);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-.r{
-    animation-name: animaR;
-    animation-duration: 3s;
-    transition: 1s ease-in;
-    animation-fill-mode: forwards;
-}
-@keyframes animaR{
-    from{
-        transform: translateY(10em);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-.h,.u{
-    animation-name: animaHU;
-    animation-duration: 3s;
-    transition: 1s ease-in;
-    animation-fill-mode: forwards;
-}
-@keyframes animaHU{
-    from{
-        transform: translateY(-10em);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-.v{
-    animation-name: animaV;
-    animation-duration: 3s;
-    transition: 1s ease-in;
-    animation-fill-mode: forwards;
-}
-@keyframes animaV{
-    from{
-        transform: translateX(10em);
-    }
-    to{
-        transform: translateX(0);
-    }
-}   */
+
+

@@ -24,7 +24,7 @@ export default function Contact() {
   return (
     <>
       <div className='contact-main-container'>
-        <form className='contact-main' onSubmit={handleSubmit} method='POST' data-netlify='true'>
+        <form className='contact-main' onSubmit={handleSubmit} method='POST' netlify>
           <input type='hidden' name='form-name' value='contact' />
           <div className='contact-item'>
             <strong className='contact-name-field'>Name</strong>
